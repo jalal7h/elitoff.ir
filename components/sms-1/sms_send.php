@@ -19,6 +19,8 @@ function sms_send( $to , $text ){
 		
 		} else {
 			
+			// e(__FUNCTION__,__LINE__);
+			
 			// ################################################
 			// ini_set("soap.wsdl_cache_enabled", "0");
 			// $sms_client = new SoapClient('http://5.9.76.186/SendService.svc?wsdl', array('encoding'=>'UTF-8'));
@@ -49,6 +51,7 @@ function sms_send( $to , $text ){
 				'username' => 'mahsa',
 				'password' => '1328',
 				'from' => "30007477",
+				// 'from' => "500043000",
 				'to' => array($to),
 				'text' => $text
 			);
@@ -63,6 +66,8 @@ function sms_send( $to , $text ){
 			$data = curl_exec($ch);
 			curl_close($ch);
 			$results = (!$data ? null : json_decode($data, true) );
+
+			var_dump($results);
 
 			return $results;
 			################################################

@@ -1,14 +1,27 @@
 <?
 
-function e($text){
-	#
-	// echo "<center>".$text."</center>";
+function ed( $text, $line=null, $etc=null ){
+	e( $text, $line, $etc );
+	die();
+}
+
+function e( $text, $line=null, $etc=null ){
+
+	if( $line ){
+		$text.= " : ".$line;
+	}
 	
-	#
-	// $fp = fopen("e","a+");fwrite($fp, date("[Y/m/d H:i:s] ").$text."\n");fclose($fp);
+	if( $etc ){
+		$text.= " (".$etc.")";
+	}
 
 	#
-	error_log($text);
+	# echo 
+	echo "<center>".$text."</center>";
+	
+	#
+	# error log
+	error_log( 'e : ' . $text );
 
 	return false;
 }
