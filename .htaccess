@@ -73,4 +73,5 @@ RewriteRule ^forgot_do$ ./?page=13 [L]
 RewriteRule ^ads$ ./?page=26 [L]
 
 
-# AddHandler application/x-httpd-php52  .php52 .php
+
+# AddType application/x-httpd-php54 .php

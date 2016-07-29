@@ -67,7 +67,7 @@ function sms_send( $to , $text ){
 			curl_close($ch);
 			$results = (!$data ? null : json_decode($data, true) );
 
-			var_dump($results);
+			// var_dump($results);
 
 			return $results;
 			################################################
