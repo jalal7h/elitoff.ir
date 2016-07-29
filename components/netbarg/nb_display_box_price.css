@@ -1,0 +1,134 @@
+
+/* price */
+.nb_display .main > .box .price {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	width: 220px;
+	height: 426px;
+	margin-right: 10px;
+	/*background-color: #fec;*/
+}
+
+.nb_display .main > .box .price .off {
+	position: absolute; top: 0px; left: 0px; z-index: 9;
+	background-color: #E22697;
+	padding: 20px 0 20px 0;
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	display: inline-block;
+	color: white;
+}
+.nb_display .main > .box .price .off span:nth-child(1) {
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	padding: 2px 5px 5px 5px;
+}
+.nb_display .main > .box .price .off span:nth-child(2) {
+	display: block;
+	font-size: 11px;
+	text-align: center;
+}
+
+.nb_display .main > .box > .price > .head {
+	display: block;
+	width: 80%;
+	position: absolute; top: 8px; right: 0px;
+	background-color: #eee;
+	padding: 5px 10px 0 0;
+	border-radius: 4px;
+}
+.nb_display .main > .box > .price > .head text {
+	display: block;
+	color: #444;
+	font-size: 12px;
+	padding: 4px 0 0 0;
+}
+.nb_display .main > .box > .price > .head price {
+	display: inline-block;
+	font-size: 30px;
+	font-weight: bold;
+	color: green;
+	padding: 6px 3px 7px 0;
+	font-family: 'Courier New', BYekan, tahoma;
+}
+.nb_display .main > .box .price .second {
+	display: block;
+	width: 100%;
+	position: absolute; top: 95px; left: 0px;
+	background-color: #eee;
+	padding: 10px;
+	border-radius: 4px;
+}
+.nb_display .main > .box .price .second div {
+	display: inline-block;
+	width: 48%;
+	padding: 5px;
+	text-align: center;
+}
+
+
+.nb_display .main > .box .price .vote {
+	position: absolute; bottom: 190px; left: 0px;
+	display: block;
+	background-color: #eee;
+	width: 100%;
+	border-radius: 4px;
+}
+
+.nb_display .main > .box .price .date {
+	display: block;
+	position: absolute; bottom: 120px; left: 0px;
+	background-color: #eee;
+	width: 100%;
+	border-radius: 4px;
+}
+.nb_display .main > .box .price .date > .datehead {
+	font-weight: bold;
+	font-size: 14px;
+	display: inline-block;
+	float: right;
+	padding: 19px 6px 0 0;
+}
+.nb_display .main > .box .price .date > .datebox {
+	float: left;
+	width: 125px;
+}
+.nb_display .main > .box .price .date > .datebox > * {
+	display: inline-block;
+	width: 29px;
+	text-align: center;
+	margin: 0px;
+	padding: 10px 0px;
+}
+.nb_display .main > .box .price .date > .datebox > div {
+	padding-bottom: 0px;
+	font-size: 13px;
+}
+.nb_display .main > .box .price .date > .datebox > span {
+	color: #888;
+}
+
+.nb_display .main > .box .price > .share {
+	position: absolute; bottom: 80px; right: 0px;
+}
+
+.nb_display .main > .box .price .sold {
+	display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 12px 5px 8px 0;
+    text-align: center;
+    background-color: rgba(200,200,200, 1.0);
+    border-radius: 4px;
+    vertical-align: middle;
+    height: 64px;
+    font: bold 18px BYekan;
+    line-height: 42px !important;
+    cursor: default;
+}
+

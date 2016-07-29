@@ -1,0 +1,83 @@
+
+
+.nb_display .main > .box > .slide {
+	display: inline-block;
+	width: 682px;
+	height: 426px;
+	position: relative;
+}
+.nb_display .main > .box > .slide > img {
+	border-radius: 4px;
+	width: 100%;
+	height: 100%;
+	position: absolute; top: 0px; left: 0px;
+	/*display: none;*/
+	opacity: 0.0;
+	transition: all 0.6s;
+}
+.nb_display .main > .box > .slide > img:first-child {
+	opacity: 1.0;
+}
+
+.nb_display .main > .box > .slide > .menu {
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute; bottom: 25px; left: 0px;
+	border-radius: 0 5px 5px 0;
+	direction: ltr;
+}
+.nb_display .main > .box > .slide > .menu > * {
+	display: inline-block;
+	font-size: 16px;
+	direction: rtl;
+	padding: 15px;
+}
+.nb_display .main > .box > .slide > .menu > .position {
+	color: white;
+}
+.nb_display .main > .box > .slide > .menu > .order_count {
+	background-color: white;
+	border-radius: 0 5px 5px 0;
+	border: 1px solid #f8f8f8;
+	border-left: 0px;
+}
+.nb_display .main > .box > .slide > .menu > .order_count > span {
+	color: green;
+	font-weight: bold;
+	font-size: 20px;
+	position: relative; top: -1px; right: -3px;
+	display: inline-block;
+}
+
+.nb_display .main > .box > .slide .heart {
+	position: absolute; z-index: 10; top: 0px; right: 0px;
+}
+.nb_display .main > .box > .slide .heart > icon:before {
+	position: absolute; z-index: 10; top: 15px; right: 18px;
+	content: "\f004";
+	font-size: 50px;
+	color: #E22697;
+	display: inline-block;
+}
+.nb_display .main > .box > .slide .heart > span {
+	position: absolute;
+    z-index: 10;
+    top: 30px;
+    right: 28px;
+    display: inline-block;
+    color: white;
+    font: bold 12px tahoma;
+    direction: ltr;
+    text-align: center;
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+

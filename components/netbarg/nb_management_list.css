@@ -1,0 +1,26 @@
+
+.listmaker_list_record td.name {
+	direction: rtl;
+	text-align: right;
+}
+.listmaker_list_record td.order_sale {
+	color: red;
+	direction: ltr;
+	text-align: center;
+	font-weight: bold;
+}
+.listmaker_list_record td.order_free {
+	color: green;
+	direction: ltr;
+	text-align: center;
+	font-weight: bold;
+}
+.listmaker_list_record td.order_count:after {
+	
+}
+.listmaker_list_record td.date_end {
+	direction: ltr;
+	text-align: center;
+}
+
+

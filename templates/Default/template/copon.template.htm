@@ -1,0 +1,39 @@
+
+<div class="ticket">
+    <table class="bordered" cellpadding="0" cellspacing="1px">
+        <tbody><tr>
+            <td colspan="2" class="buy-code">کد تخفیف : <span class="c">{code}</span></td>
+            <td colspan="2" class="buy-code"></td>
+        </tr>
+        <tr>
+            <td colspan="4" class="deal-name">
+            <span class="c1">{name}</span> 
+            </td>
+        </tr>
+        <tr>
+            <td class="qr-code" rowspan="3" align="center" width="135px">
+            	<img src="http://chart.apis.google.com/chart?cht=qr&chs=120x120&chl={code}" alt="[Image: Deal qr code]">
+                <img src="./image.list/print-logo.png" width="95px" alt="[Image: Logo]" title="سایت تخفیف و خرید گروهی نت برگ">
+            </td>
+            <td class="sells"><img class="print-icon" src="./image.list/icon-buyer.png">خریدار <span class="c">{user_name}</span></td>
+            <td class="place"><img class="print-icon" src="./image.list/icon-name.png"><span class="c">{seller_name}</span></td>
+            <td class="telephones">
+                <img class="print-icon" src="./image.list/icon-phone.png">
+                                                تلفن: {seller_tell}<br>
+                                          
+                </td>
+        </tr>
+        <tr>
+            <td colspan="3" class="address">
+            	<img class="print-icon" src="./image.list/icon-add.png">آدرس‌ : 
+            	<span class="c1">{seller_address}</span>
+            </td>
+        </tr>
+        <tr>
+            <td>تاریخ خرید : <span class="c" title="۱۳۹۴/۰۶/۳۱ Asia/Tehran">{date_buy}<br></span></td>
+            <td>تاریخ شروع اعتبار : {date_start}</td>
+            <td>تاریخ پایان اعتبار : {date_end}</td>
+        </tr>
+    </tbody></table>
+    <div class="divider"><img src="./image.list/icon-cut.png"></div>
+</div>

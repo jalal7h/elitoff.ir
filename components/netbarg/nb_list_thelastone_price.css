@@ -1,0 +1,146 @@
+
+/* price */
+.nb_list_thelastone > .price {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	width: 286px;
+	height: 426px;
+	margin-right: 10px;
+	/*background-color: #fec;*/
+	margin-bottom: -4px;
+}
+
+.nb_list_thelastone > .price > .home {
+	position: absolute; top: 15px; right: 4px;
+}
+.nb_list_thelastone > .price > .home::before {
+    font-family: FontAwesome;
+    font-size: 20px;
+    color: #E22697;
+    content: "\f015";
+    margin: 0 0 0 8px;
+    position: relative;
+    top: 2px;
+}
+
+.nb_list_thelastone > .price > .title {
+	display: block;
+	position: absolute;
+    top: 60px;
+    right: 1px;
+    padding-right: 10px;
+    border-right: 5px solid #EEE;
+    font-size: 24px;
+    line-height: 34px !important;
+    width: 98%;
+    height: 100px;
+    overflow: hidden;
+}
+.nb_list_thelastone > .price > .title {
+	color: #000;
+}
+
+.nb_list_thelastone > .price .off {
+	position: absolute; bottom: 159px; left: 0px; z-index: 9;
+	background-color: #E22697;
+	padding: 20px 0 20px 0;
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	display: inline-block;
+	color: white;
+}
+.nb_list_thelastone > .price .off span:nth-child(1) {
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	padding: 2px 5px 5px 5px;
+}
+.nb_list_thelastone > .price .off span:nth-child(2) {
+	display: block;
+	font-size: 11px;
+	text-align: center;
+}
+
+.nb_list_thelastone > .price > .head {
+	display: block;
+	width: 86%;
+	position: absolute; bottom: 167px; right: 0px;
+	background-color: #eee;
+	padding: 5px 10px 0 0;
+	border-radius: 4px;
+}
+.nb_list_thelastone > .price > .head text {
+	display: block;
+	color: #444;
+	font-size: 12px;
+	padding: 4px 0 0 0;
+}
+.nb_list_thelastone > .price > .head price {
+	display: inline-block;
+	font-size: 30px;
+	font-weight: bold;
+	color: green;
+	padding: 6px 3px 7px 0;
+	font-family: 'Courier New', BYekan, tahoma;
+}
+
+.nb_list_thelastone > .price .date {
+	display: block;
+	position: absolute; bottom: 93px; left: 0px;
+	background-color: #eee;
+	width: 100%;
+	border-radius: 4px;
+}
+.nb_list_thelastone > .price .date > .datehead {
+	font-weight: bold;
+	font-size: 14px;
+	display: inline-block;
+	float: right;
+	padding: 19px 6px 0 0;
+}
+.nb_list_thelastone > .price .date > .datebox {
+	float: left;
+	width: 125px;
+}
+.nb_list_thelastone > .price .date > .datebox > * {
+	display: inline-block;
+	width: 29px;
+	text-align: center;
+	margin: 0px;
+	padding: 10px 0px;
+}
+.nb_list_thelastone > .price .date > .datebox > div {
+	padding-bottom: 0px;
+	font-size: 13px;
+}
+.nb_list_thelastone > .price .date > .datebox > span {
+	color: #888;
+}
+
+.nb_list_thelastone > .price .orders_basket_addbutton {
+	position: absolute;
+    bottom: 12px;
+    left: 0px;
+}
+
+.nb_list_thelastone > .price .sold {
+	display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 12px;
+    left: 0px;
+    padding: 12px 5px 8px 0;
+    text-align: center;
+    background-color: rgba(200,200,200, 1.0);
+    border-radius: 4px;
+    vertical-align: middle;
+    height: 64px;
+    font: bold 18px BYekan;
+    line-height: 42px !important;
+    cursor: default;
+}
+
+
+

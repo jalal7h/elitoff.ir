@@ -1,0 +1,9 @@
+
+.nb_management_copon_form_generate {
+	direction: rtl;
+	margin: 50px 0;
+}
+.nb_management_copon_form_generate .text {
+	font-size: 18px;
+	margin: 10px;
+}

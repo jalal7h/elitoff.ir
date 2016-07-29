@@ -1,0 +1,41 @@
+
+.nb_display {
+
+}
+.nb_display .main {
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: 0 0 10px #ddd;
+	padding: 15px;
+}
+
+/* head */
+.nb_display .main > .head {
+	border-bottom: 1px solid #E22697;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+.nb_display .main > .head seller_name {
+	font-size: 14px;
+	color: #E22697;
+	display: block;
+	margin: 0 0 10px 0; 
+}
+.nb_display .main > .head name {
+	font-size: 24px;
+	font-weight: bold;
+	display: block;
+}
+
+.nb_display .down {
+
+}
+.nb_display .down .left {
+	float: left;
+	width: 224px;
+}
+.nb_display .down .right {
+	float: right;
+	width: 705px;
+}
+

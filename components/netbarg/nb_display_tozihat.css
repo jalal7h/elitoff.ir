@@ -1,0 +1,33 @@
+
+.nb_display .tozihat {
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: 0 0 10px #ddd;
+	padding: 15px;
+	margin-top: 20px;
+}
+.nb_display .tozihat > .head {
+	border-bottom: 1px solid #ddd;
+	padding: 0 0 10px 0;
+	margin: 0 0 20px 0;
+	font-size: 18px;
+	color: #333;
+}
+.nb_display .tozihat > .head:before {
+	width: 15px;
+    height: 15px;
+    background-image: url('image.list/icons-web.png');
+    background-position: -267px -18px;
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    left: 3px;
+}
+
+.nb_display .tozihat > .text {
+	line-height: 20px !important;
+}
+.nb_display .tozihat > .text * {
+	line-height: 20px !important;
+}

@@ -1,0 +1,18 @@
+
+.nb_management_copon_form {
+	direction: rtl;
+	margin: 40px 0;
+}
+.nb_management_copon_form input[type=text] {
+	width: 70px !important;
+	direction: ltr;
+	text-align: center;
+	font-size: 14px;
+	margin: 0 5px;
+	font-family: 'courier new', tahoma;
+}
+.nb_management_copon_form input[type=submit] {
+	padding-right: 15px !important;
+	padding-left: 15px !important;
+	font-size: 14px;
+}

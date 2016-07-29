@@ -1,0 +1,15 @@
+
+.nb_management_copon {
+
+}
+.nb_management_copon .title {
+	text-align: right;
+	direction: rtl;
+	margin: 20px -2px 0 0 !important;
+	font-size: 12px;
+	border-top: 1px solid #ddd;
+	padding: 7px 10px 10px 0 !important;
+	display: block;
+	background-color: #E8E8E8;
+}
+

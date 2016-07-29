@@ -1,0 +1,59 @@
+
+.productvote_display {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0px !important;
+	padding: 5px !important;
+}
+.productvote_display * {
+	margin: 0px;
+	padding: 0px;
+}
+.productvote_display div {
+	display: block;
+	clear: both;
+}
+
+.productvote_display .record {
+	margin: 0px !important;
+	padding: 10px 0px !important;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.productvote_display .record .head {
+	line-height: 13px !important;
+	margin: 0px 5px 0 0;
+}
+.productvote_display .record .box {
+	border: 1px solid #900;
+	margin: 6px 3px 6px 3px !important;
+	transition: all 0.2s;
+}
+.productvote_display .record .box .inner {
+	background-color: #900;
+	height: 5px;
+	transition: all 0.2s;
+}
+.productvote_display .record .box .inner-container {
+	background-color: transparent;
+}
+.productvote_display .record:hover {
+	background-color: #eee;
+}
+.productvote_display .record:hover .box {
+	margin: 3px 3px 3px 3px !important;
+}
+.productvote_display .record:hover .inner {
+	height: 11px;
+	background-color: transparent;
+}
+
+
+
+
+
+
+
+
+

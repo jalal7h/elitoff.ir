@@ -1,0 +1,67 @@
+
+.nb_newsletter {
+	margin: auto;
+    width: 369px;
+    position: relative;
+    top: 6px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 15px;
+}
+.nb_newsletter .text {
+	color: #E22697;
+	margin: 0 5px 5px 0;
+	cursor: default;
+}
+.nb_newsletter .container {
+	border: 1px solid #E22697;
+	padding: 2px;
+	border-radius: 4px;
+	position: relative;
+}
+.nb_newsletter input[type=email] {
+	padding: 10px;
+	direction: ltr;
+	text-align: center;
+	border: 0px;
+	width: 232px;
+	line-height: 15px !important;
+	font: normal 12px tahoma;
+	box-shadow: 0 0 40px white inset;
+	-webkit-text-fill-color: black !important;
+}
+.nb_newsletter input[type=email]:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+.nb_newsletter icon {
+	display: inline-block;
+    width: 21px;
+    height: 16px;
+    background-image: url('image.list/icons-web.png');
+    background-position: -214px -167px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 4px;
+    right: 9px;
+}
+.nb_newsletter input[type=email]:hover {
+	border: 0px;
+}
+.nb_newsletter input[type=submit] {
+	border-radius: 4px;
+	padding: 11px 16px 8px 16px;
+	background-color: #E22697;
+	color: #fff;
+	font: bold 14px BYekan;
+	border: 0px;
+	width: auto;
+	position: absolute; top: 2px; left: 3px;
+
+}
+.nb_newsletter input[type=submit]:hover {
+	color: #E22697;
+	background-color: #eee;
+	border: 0;
+}
+
+

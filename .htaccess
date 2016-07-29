@@ -1,0 +1,76 @@
+RewriteEngine On
+
+RewriteRule ^newsletter-email-list.txt$ ./?do_action=nl_management_emailList_download [L]
+
+#
+# billing-2
+RewriteRule ^billing-payment([0-9]+)$ ./?page=14&do=billing_userpanel_payment&order_id=$1 [L]
+
+#
+# contact-2
+RewriteRule ^contact$ ./?page=2 [L]
+
+#
+# faq-1
+RewriteRule ^faq$ ./?page=20 [L]
+
+#
+# main-2
+RewriteRule ^resize/([0-9]+)x([0-9]+)/(.*)$ ./?do_action=quick_resize&width=$1&height=$2&address=$3 [L]
+RewriteRule ^admin$ ./?page=admin [L]
+RewriteRule ^scripts.js$ ./?do_action=include_all_js [L]
+RewriteRule ^scripts-admin.js$ ./?do_action=include_all_js&page=admin [L]
+RewriteRule ^styles.css$ ./?do_action=include_all_css [L]
+RewriteRule ^styles-admin.css$ ./?do_action=include_all_css&page=admin [L]
+RewriteRule ^about$ ./?page=3 [L]
+RewriteRule ^image\.list/(.*)$ ./?do_action=imgp_echo&filename=$1 [L]
+RewriteRule ^image_list/(.*)$ ./?do_action=imgp_echo&filename=$1 [L]
+
+#
+# netbarg-1
+RewriteRule ^([0-9]+)-(.*).html$ ./?page=6&id=$1 [L]
+RewriteRule ^cat-([0-9]+)-(.*).html$ ./?page=8&cat_id=$1 [L]
+RewriteRule ^press$ ./?page=16 [L]
+RewriteRule ^learn$ ./?page=17 [L]
+RewriteRule ^abs$ ./?page=17 [L]
+RewriteRule ^agent$ ./?page=18 [L]
+RewriteRule ^business$ ./?page=19 [L]
+RewriteRule ^ios$ ./?page=21 [L]
+RewriteRule ^android$ ./?page=22 [L]
+RewriteRule ^online-payment$ ./?page=23 [L]
+RewriteRule ^terms$ ./?page=24 [L]
+RewriteRule ^privacy$ ./?page=25 [L]
+RewriteRule ^rcpn([0-9]+)$ /?page=admin&cp=nb_management&func=nb_management_list&do=copon&id=$1&func2=nb_management_copon_form [R]
+
+#
+# orders-3-spi
+RewriteRule ^orders-basket$ ./?page=15 [L]
+RewriteRule ^orders-basket-([0-9]+)$ ./?page=15&do=add&id=$1 [L]
+RewriteRule ^orders-basket-confirm$ ./?page=15&do=confirm [L]
+RewriteRule ^orders_paymentdone-([0-9]+)$ ./?page=15&do=paymentdone&order_id=$1 [L]
+RewriteRule ^orders-list$ ./?page=14&do=orders_user_list [L]
+
+#
+# seo-2-spi
+RewriteRule ^sitemap.xml$ ./?do_action=seo_sitemap [L]
+RewriteRule ^rss/([a-zA-Z0-9]+)\.xml$ ./?do_action=seo_rss&feed=$1 [L]
+
+#
+# userpanel-2-spi
+RewriteRule ^userpanel$ ./?page=14 [L]
+
+#
+# users-1
+RewriteRule ^register$ ./?page=10 [L]
+RewriteRule ^register_do$ ./?page=11 [L]
+RewriteRule ^login$ ./?page=9 [L]
+RewriteRule ^forgot$ ./?page=12 [L]
+RewriteRule ^forgot_do$ ./?page=13 [L]
+
+
+#
+# added online
+RewriteRule ^ads$ ./?page=26 [L]
+
+
+# AddHandler application/x-httpd-php52  .php52 .php

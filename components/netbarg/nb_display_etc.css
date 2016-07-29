@@ -1,0 +1,86 @@
+
+/* etc */
+.nb_display > .etc {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #ddd;
+    padding: 15px;
+    margin: 20px 0 0 0;
+}
+.nb_display > .etc > div {
+	width: 33%;
+	display: inline-block;
+	padding: 10px;
+	vertical-align: top;
+}
+.nb_display > .etc > div > .head {
+	border-bottom: 1px solid #ddd;
+	padding: 0 0 10px 0;
+	margin: 0 0 20px 0;
+	font-size: 18px;
+	color: #333;
+}
+.nb_display > .etc > div > .head:before {
+	width: 15px;
+    height: 15px;
+    background-image: url('image.list/icons-web.png');
+    background-position: -267px -18px;
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    left: 3px;
+}
+
+.nb_display > .etc .vijegi {
+	font-size: 13px;
+	line-height: 20px !important;
+}
+.nb_display > .etc .vijegi * {
+	line-height: 20px !important;
+}
+
+.nb_display > .etc .sharayet {
+	font-size: 13px;
+	line-height: 20px !important;
+}
+.nb_display > .etc .sharayet * {
+	line-height: 20px !important;
+}
+
+.nb_display > .etc .forushande {
+	font-size: 13px;
+	line-height: 20px !important;
+}
+.nb_display > .etc .forushande * {
+	font-size: 13px;
+	line-height: 20px !important;
+}
+.nb_display > .etc .forushande .seller_name {
+	color: green;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 0 0 8px 0;
+}
+.nb_display > .etc .forushande .seller_address {
+
+}
+.nb_display > .etc .forushande .seller_tell {
+	direction: ltr;
+	font: normal 15px BYekan; 
+
+}
+.nb_display > .etc .forushande .seller_tell:before {
+	display: inline-block;
+	width: 26px;
+	height: 21px;
+	background-image: url('image.list/icons-web.png');
+    background-position: -165px -64px;
+    content: " ";
+    position: relative;
+    top: 9px;
+}
+.nb_display > .etc .forushande .google_maps {
+	margin-top: 20px;
+}
+

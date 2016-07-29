@@ -1,0 +1,60 @@
+
+/*index*/
+
+.block {
+	width:100%;
+	float:left;
+	border:1px solid #ccc;
+	margin-bottom:7px;
+	background: white;
+	box-shadow: 0 0 10px #ccc;
+	text-align: justify;
+}
+
+.block > .blockhead {
+	background: #ddd;
+	color: #666;
+	text-shadow: 1px 1px 1px #fff;
+	padding: 10px 0 10px 0;
+	text-indent: 11px;
+	cursor: default;
+	border-bottom: 1px solid #d0d0d0;
+	font: bold 14px tahoma;
+	text-align: right;
+	direction: rtl;
+}
+.block > .blockhead:before {
+	content:":: ";
+}
+
+.block > .blocktext {
+	color: #444;
+	text-align: justify;
+	background-color: white;
+	direction: rtl;
+	padding: 23px 20px 20px 20px;
+}
+.block > .blocktext * {
+	
+}
+.block .blockfooter {
+	
+}
+
+.block * {
+	line-height: 20px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

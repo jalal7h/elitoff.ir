@@ -1,0 +1,39 @@
+
+/*index*/
+
+#main {
+	width:1135px;
+	max-width:95%;
+	margin:auto;
+	padding:0px;
+	height:100%;
+	border:0px;
+	border-spacing:0;
+	border-collapse:collapse;
+}
+#main_top {
+	clear:left;
+	width:100%;
+}
+#main_center {
+	direction:rtl;
+	float:left;
+	width:945px;
+}
+#main_right {
+	float:right;
+	width:170px;
+}
+#main_down {
+	direction:rtl;
+	clear:left;
+	width:100%;
+}
+
+.copyright {
+	direction:ltr;
+	margin:0 0 10px 10px;
+}
+
+
+

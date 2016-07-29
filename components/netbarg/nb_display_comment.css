@@ -1,0 +1,44 @@
+
+.nb_display .comment {
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: 0 0 10px #ddd;
+	padding: 15px;
+	margin-top: 20px;
+}
+.nb_display .comment > .head {
+	border-bottom: 1px solid #ddd;
+	padding: 0 0 10px 0;
+	margin: 0 0 20px 0;
+	font-size: 18px;
+	color: #333;
+}
+.nb_display .comment > .head:before {
+	width: 15px;
+    height: 15px;
+    background-image: url('image.list/icons-web.png');
+    background-position: -267px -18px;
+    content: " ";
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    left: 3px;
+}
+
+.nb_display .cm_list {
+	border: 0 !important;
+}
+.nb_display .comment .container {
+	padding: 30px 20px;
+}
+
+/*.productvote_display .record .box {
+	border: 1px solid #E22697 !important;
+}
+.productvote_display .record .box .inner {
+	background-color: #E22697 !important;
+}*/
+
+
+
+

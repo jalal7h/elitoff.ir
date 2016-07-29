@@ -1,0 +1,11 @@
+
+# /*-spi-*/
+
+RewriteRule ^register$ ./?page=10 [L]
+RewriteRule ^register_do$ ./?page=11 [L]
+RewriteRule ^login$ ./?page=9 [L]
+RewriteRule ^forgot$ ./?page=12 [L]
+RewriteRule ^forgot_do$ ./?page=13 [L]
+
+
+

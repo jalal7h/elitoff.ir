@@ -1,0 +1,2 @@
+0 10 * * * wget http://cocoro.ir/?do_action=nb_newsletter_cron
+* * * * * wget http://cocoro.ir/?do_action=mailq_cron

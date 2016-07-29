@@ -1,0 +1,12 @@
+RewriteRule ^([0-9]+)-(.*).html$ ./?page=6&id=$1 [L]
+RewriteRule ^cat-([0-9]+)-(.*).html$ ./?page=8&cat_id=$1 [L]
+RewriteRule ^press$ ./?page=16 [L]
+RewriteRule ^learn$ ./?page=17 [L]
+RewriteRule ^agent$ ./?page=18 [L]
+RewriteRule ^business$ ./?page=19 [L]
+RewriteRule ^ios$ ./?page=21 [L]
+RewriteRule ^android$ ./?page=22 [L]
+RewriteRule ^online-payment$ ./?page=23 [L]
+RewriteRule ^terms$ ./?page=24 [L]
+RewriteRule ^privacy$ ./?page=25 [L]
+

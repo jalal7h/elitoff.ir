@@ -1,0 +1,105 @@
+
+.nb_cat {
+	display: block;
+	direction: rtl;
+	background-color: white;
+	width: 100%;
+	border: 1px solid #d9d9d9;
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
+.nb_cat > a {
+	position: relative;
+	text-indent: 46px;
+	display: block;
+    color: #404040;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 38px !important;
+    border-bottom: 1px solid #ededed;
+    border-right: 3px solid gray;
+}
+.nb_cat > a:last-child {
+	border-bottom: 0px;
+}
+.nb_cat > a:hover {
+	color: white;
+	background-color: #E22697;
+	border-right-color: #E22697;
+}
+.nb_cat > a:before {
+	display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 38px;
+    height: 38px;
+    padding: 0;
+    margin: 0;
+    border-left: 1px solid #ededed;
+    background: #f2f2f2 url(image.list/icons-new.png) no-repeat -6px -257px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.nb_cat > a:nth-child(1):before {
+	background-position: -6px -7px;
+}
+.nb_cat > a:nth-child(2):before {
+	background-position: -6px -57px;
+}
+.nb_cat > a:nth-child(3):before {
+	background-position: -6px -107px;
+}
+.nb_cat > a:nth-child(4):before {
+	background-position: -6px -607px;
+}
+.nb_cat > a:nth-child(5):before {
+	background-position: -6px -207px;
+}
+.nb_cat > a:nth-child(6):before {
+	background-position: -6px -755px;
+}
+.nb_cat > a:nth-child(7):before {
+	background-position: -6px -157px;
+}
+.nb_cat > a:nth-child(8):before {
+	background-position: -6px -257px;
+}
+
+.nb_cat > a:hover:before {
+	background-color: black;
+}
+
+.nb_cat > a:nth-child(1):hover:before {
+	background-position: -56px -7px;
+}
+.nb_cat > a:nth-child(2):hover:before {
+	background-position: -56px -57px;
+}
+.nb_cat > a:nth-child(3):hover:before {
+	background-position: -56px -107px;
+}
+.nb_cat > a:nth-child(4):hover:before {
+	background-position: -56px -607px;
+}
+.nb_cat > a:nth-child(5):hover:before {
+	background-position: -56px -207px;
+}
+.nb_cat > a:nth-child(6):hover:before {
+	background-position: -56px -755px;
+}
+.nb_cat > a:nth-child(7):hover:before {
+	background-position: -56px -157px;
+}
+.nb_cat > a:nth-child(8):hover:before {
+	background-position: -56px -257px;
+}
+
