@@ -18,7 +18,7 @@ function sms_send( $to , $text ){
 	} else if(! $to = trim($to) ){
 		return false;
 		
-	} else if(! $html = file_get_contents("http://postgah.net/API/SendSms.ashx?username=mahsa&password=1328&from=30005825000120&to=".$to."&text=".$text) ){
+	} else if(! $html = file_get_contents("http://postgah.net/API/SendSms.ashx?username=mahsa&password=1328&from=30005825000120&to=".$to."&text=".urlencode($text) ) ){
 		e(__FUNCTION__,__LINE__);
 
 	} else {
