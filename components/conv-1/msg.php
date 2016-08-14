@@ -20,8 +20,6 @@ msg(
 
 function msg( $who , $template_name , $vars ){
 
-	e( __FUNCTION__ . __LINE__ );
-
 	switch ($who) {
 
 		case 'admin':

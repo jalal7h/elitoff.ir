@@ -30,7 +30,8 @@ function userpanel_menu(){
 	if( $rw['profile_pic']!='' ){
 		echo '<a class="userpanel_menu userpanel_menu_profile_pic" href="./?page='.$_REQUEST['page'].'&do=users_profile_form"><img src="resize/164x250/'.$rw['profile_pic'].'" /></a>';
 	} else {
-		echo "its not;";
+		echo '<div class="profile_avatar"><img src="'._URL.'/image_list/avatar-not-found.png"/></div>';
+		// echo "its not;";
 	}
 
 	echo '<div class="userpanel_menu">';
