@@ -52,11 +52,12 @@ function nb_display_box_slide( $rw ){
 			disable_auto_flag = 0;
 			setInterval( function(){
 				if(disable_auto_flag==0){
-					$('.nb_display .main .box .slide > img:nth-child('+i0+')').css({"opacity":"0.0"});
 					i0 = (i0%size0);
 					i0++;
+					i1 = i0 + 1;
 					// console.log(i0);
-					$('.nb_display .main .box .slide > img:nth-child('+i0+')').css({"opacity":"1.0"});
+					$('.nb_display .main .box .slide > img').css({"opacity":"0.0"});
+					$('.nb_display .main .box .slide > img:nth-child('+i1+')').css({"opacity":"1.0"});
 				}
 			}, 3000);
 			$('.nb_display .main .box .slide > img').on("mouseenter", function(){
