@@ -66,11 +66,66 @@
 
 }
 .nb_display > .etc .forushande .seller_tell {
-	direction: ltr;
 	font: normal 15px BYekan; 
 
 }
 .nb_display > .etc .forushande .seller_tell:before {
+	display: inline-block;
+	width: 26px;
+	height: 21px;
+	margin-left: 2px;
+	background-image: url('http://elitoff.ir/templates/Default/images/icons-web.png');
+    background-position: -165px -64px;
+    content: " ";
+    position: relative;
+    top: 9px;
+}
+.nb_display > .etc .forushande .seller_tell_mobayl {
+	font: normal 15px BYekan; 
+
+}
+.nb_display > .etc .forushande .seller_tell_mobayl:before {
+	display: inline-block;
+	width: 26px;
+	height: 21px;
+	margin-left: 2px;
+	background-image: url('http://elitoff.ir/templates/Default/images/icons-web.png');
+    background-position: -165px -64px;
+    content: " ";
+    position: relative;
+    top: 9px;
+}.nb_display > .etc .forushande .site_addres {
+	font: normal 15px BYekan; 
+
+}
+.nb_display > .etc .forushande .site_addres:before {
+	display: inline-block;
+	width: 26px;
+	height: 21px;
+	background-image: url('http://elitoff.ir/templates/Default/images/icons-web.png');
+    background-position: -10px -14px;
+    content: " ";
+    position: relative;
+    top: 9px;
+}.nb_display > .etc .forushande .tel_addres {
+	font: normal 15px BYekan; 
+
+}
+.nb_display > .etc .forushande .tel_addres:before {
+	display: inline-block;
+	width: 26px;
+	height: 21px;
+	background-image: url('image.list/icons-web.png');
+    background-position: -165px -64px;
+    content: " ";
+    position: relative;
+    top: 9px;
+}.nb_display > .etc .forushande .insta_addres {
+	
+	font: normal 15px BYekan; 
+
+}
+.nb_display > .etc .forushande .insta_addres:before {
 	display: inline-block;
 	width: 26px;
 	height: 21px;
