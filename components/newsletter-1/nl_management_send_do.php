@@ -65,11 +65,10 @@ function nl_management_send_do(){
 			$text = 
 			"<html dir=rtl >\n".
 			"<head>".
-			"	<style>".file_get_contents(_URL.'/styles.css')."</style>".
 			"	<META http-equiv=Content-Type content=\"text/html; charset=utf-8\">".
 			"	<base href=\""._URL."\">".
 			"</head>".
-			"<body>".$text."\n</body>\n</html>";
+			"<body><table width=100% border=0 ><tr><td align=right dir=rtl >".$text."</td></tr></table>\n</body>\n</html>";
 
 
 			mailq( $list , $subject , $text , $from, $html=true );
