@@ -61,7 +61,6 @@ function nl_management_send_do(){
 				}
 			}
 
-
 			$text = 
 			"<html dir=rtl >\n".
 			"<head>".
@@ -70,11 +69,12 @@ function nl_management_send_do(){
 			"</head>".
 			"<body><table width=100% border=0 style=\"font: normal 13px Tahoma\"><tr><td align=right dir=rtl >".$text."</td></tr></table>\n</body>\n</html>";
 
-
 			mailq( $list , $subject , $text , $from, $html=true );
+
 			?>
 			<div class="convbox">ارسال ایمیل به <?=$i?> آدرس با موفقیت انجام شد</div>
 			<?
+
 		}
 
 	}
