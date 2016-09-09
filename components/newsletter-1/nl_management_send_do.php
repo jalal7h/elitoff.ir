@@ -65,10 +65,9 @@ function nl_management_send_do(){
 			$text = 
 			"<html dir=rtl >\n".
 			"<head>".
+			"	<style>".file_get_contents(_URL.'/styles.css')."</style>".
 			"	<META http-equiv=Content-Type content=\"text/html; charset=utf-8\">".
 			"	<base href=\""._URL."\">".
-			"	<link href=\"templates/Default/css/template.css\" rel=\"stylesheet\" type=\"text/css\" />".
-			"	<link href=\"styles.css\" rel=\"stylesheet\" type=\"text/css\" />".
 			"</head>".
 			"<body>".$text."\n</body>\n</html>";
 
