@@ -68,20 +68,8 @@
 #nbmf_seller_address {
 	width: 98%;
 }
-#nbmf_seller_tell_fixed {
+#nbmf_seller_tell {
 	position: relative; left: -1px;
-}
-#nbmf_seller_tell_mobayl{
-	width: 316px;
-}
-#nbmf_site_addres{
-	width: 316px;
-}
-#nbmf_tel_addres{
-	width: 316px;
-}
-#nbmf_insta_addres{
-width: 316px;	
 }
 #inDiv_nbmf_submit {
 	text-align: center;
@@ -96,7 +84,7 @@ width: 316px;
 	width: 50%;
 	vertical-align: top;
 	/*overflow: hidden;*/
-	height: 560px;
+	height: 440px;
 }
 .nbmf .topbox * {
 	vertical-align: top;

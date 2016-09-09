@@ -14,7 +14,7 @@ function nb_management_saveNew(){
 	#
 	if(!$_POST){
 		e(__FILE__.__LINE__);
-	} else if(!dbq(" INSERT INTO `netbarg` (`name`,`cat`,`cost`,`cost_orig`,`date`,`date_end`,`text_vijegi`,`text_sharayet`,`text_tozihat`,`position_str`,`google_maps`,`seller_name`,`seller_tell`,`seller_tell_mobayl`,`site_addres`,`tel_addres`,`insta_addres`,`seller_address`,`thelastone`) VALUES ('".$_REQUEST['name']."','".$_REQUEST['cat']."','".$_REQUEST['cost']."','".$_REQUEST['cost_orig']."','".U()."','".$_REQUEST['date_end']."','".$_REQUEST['text_vijegi']."','".$_REQUEST['text_sharayet']."','".$_REQUEST['text_tozihat']."','".$_REQUEST['position_str']."','".$_REQUEST['google_maps']."','".$_REQUEST['seller_name']."','".$_REQUEST['seller_tell']."','".$_REQUEST['seller_tell_mobayl']."','".$_REQUEST['site_addres']."','".$_REQUEST['tel_addres']."','".$_REQUEST['insta_addres']."','".$_REQUEST['seller_address']."','".$_REQUEST['thelastone']."')")){
+	} else if(!dbq(" INSERT INTO `netbarg` (`name`,`cat`,`cost`,`cost_orig`,`date`,`date_end`,`text_vijegi`,`text_sharayet`,`text_tozihat`,`position_str`,`google_maps`,`seller_name`,`seller_tell`,`seller_address`,`thelastone`) VALUES ('".$_REQUEST['name']."','".$_REQUEST['cat']."','".$_REQUEST['cost']."','".$_REQUEST['cost_orig']."','".U()."','".$_REQUEST['date_end']."','".$_REQUEST['text_vijegi']."','".$_REQUEST['text_sharayet']."','".$_REQUEST['text_tozihat']."','".$_REQUEST['position_str']."','".$_REQUEST['google_maps']."','".$_REQUEST['seller_name']."','".$_REQUEST['seller_tell']."','".$_REQUEST['seller_address']."','".$_REQUEST['thelastone']."')")){
 		e( dbe() );
 	} else {
 		

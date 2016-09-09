@@ -35,12 +35,8 @@ function nb_management_form(){
 
 	ff('اطلاعات فروشنده :‌').
 	ff(array('نام فروشنده','n:seller_name*'=>$tNetbarg,'inDiv')).
-	ff(array('شماره تماس ثابت','class'=>'numeric','n:seller_tell'=>$tNetbarg,'inDiv')).
-	ff(array('شماره موبایل','class'=>'numericmobayl','n:seller_tell_mobayl'=>$tNetbarg,'inDiv')).
-	ff(array('آدرس سایت','class'=>'siteaddres','n:site_addres'=>$tNetbarg,'inDiv')).
-	ff(array('آدرس تلگرام','class'=>'teladdres','n:tel_addres'=>$tNetbarg,'inDiv')).
-	ff(array('آدرس اینستاگرام','class'=>'instaaddres','n:insta_addres'=>$tNetbarg,'inDiv')).
-	
+	ff(array('شماره تماس','class'=>'numeric','n:seller_tell'=>$tNetbarg,'inDiv')).
+	ff('clear').
 	ff(array('آدرس فروشگاه','n:seller_address*'=>$tNetbarg,'inDiv')).
 	"<div class='position_select'>".position_select($tNetbarg)."</div>".
 
