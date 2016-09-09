@@ -60,7 +60,7 @@ function nl_management_send_do(){
 					$i++;
 				}
 			}
-			mailq( $list , $subject , $text , $from );
+			mailq( $list , $subject , $text , $from, $html=true );
 			?>
 			<div class="convbox">ارسال ایمیل به <?=$i?> آدرس با موفقیت انجام شد</div>
 			<?

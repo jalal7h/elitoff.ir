@@ -10,6 +10,12 @@ function nl_management_send_form(){
 	}
 
 	?>
+
+	<!-- tinymce -->
+	<script src="modules/tinymce/tinymce.min.js"></script>
+	<script src="modules/tinymce/tinymce-set.js"></script>
+	<!---->
+
 	<form method="post" action="./?page=admin&cp=<?=$_REQUEST['cp']?>&func=<?=$_REQUEST['func']?>&do=send" class="<?=__FUNCTION__?>">
 		
 		<div class="te-div">
@@ -19,7 +25,7 @@ function nl_management_send_form(){
 		
 		<div class="te-div">
 			<div>متن خبرنامه</div>
-			<textarea name="text" id="<?=__FUNCTION__?>_text"></textarea>
+			<textarea class="tinymce" name="text" id="<?=__FUNCTION__?>_text"></textarea>
 		</div>
 	
 		<label>

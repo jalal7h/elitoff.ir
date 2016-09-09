@@ -94,11 +94,11 @@
 	padding-right: 10px;
 }
 .nb_display > .etc .forushande .seller_info > span:last-child {
-	width: 150px;
+	width: 175px;
 	display: inline-block;
 	text-align: left;
 	direction: ltr;
-	font: normal 12px Arial,Tahoma;
+	font: normal 14px Raleway,Arial,Tahoma;
 }
 
 .nb_display > .etc .forushande .seller_address {
