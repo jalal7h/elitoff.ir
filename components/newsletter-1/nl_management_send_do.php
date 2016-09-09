@@ -68,7 +68,7 @@ function nl_management_send_do(){
 			"	<META http-equiv=Content-Type content=\"text/html; charset=utf-8\">".
 			"	<base href=\""._URL."\">".
 			"</head>".
-			"<body><table width=100% border=0 ><tr><td align=right dir=rtl >".$text."</td></tr></table>\n</body>\n</html>";
+			"<body><table width=100% border=0 style=\"font: normal 13px Tahoma\"><tr><td align=right dir=rtl >".$text."</td></tr></table>\n</body>\n</html>";
 
 
 			mailq( $list , $subject , $text , $from, $html=true );
