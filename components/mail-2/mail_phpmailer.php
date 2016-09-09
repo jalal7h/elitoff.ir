@@ -1,5 +1,9 @@
 <?
 
+# jalal7h@gmail.com
+# 2016/09/09
+# 1.2
+
 function mail_phpmailer( $to , $subject , $content , $from="" ){
 	
 	#
@@ -8,10 +12,17 @@ function mail_phpmailer( $to , $subject , $content , $from="" ){
 	$mail = new PHPMailer();
 	$mail->IsSMTP();                                   // send via SMTP
 	$mail->CharSet = 'UTF-8';
-	$mail->Host     = "localhost"; // SMTP servers
-	// $mail->SMTPAuth = true;     // turn on SMTP authentication
-	// $mail->Username = "info@cocoro.ir";  // SMTP username
-	// $mail->Password = '12w!@W!@W'; // SMTP password
+
+	if(! defined('phpmailer_smtp_host') ){
+		echo "smtp config not found";
+		return false;
+	}
+
+	$mail->Host     = phpmailer_smtp_host; // SMTP servers
+	$mail->SMTPAuth = true; // turn on SMTP authentication
+	$mail->Username = phpmailer_smtp_username; // SMTP username
+	$mail->Password = phpmailer_smtp_password; // SMTP password
+
 	if($from==""){
 		$mail->From     = "noreply@".str_replace("www.", "", $_SERVER['SERVER_NAME']);
 		$mail->FromName = "no-reply";
