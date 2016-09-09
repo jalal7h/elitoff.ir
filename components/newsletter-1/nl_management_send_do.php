@@ -60,6 +60,19 @@ function nl_management_send_do(){
 					$i++;
 				}
 			}
+
+
+			$text = "
+			<html dir=rtl >
+			<head>
+				<META http-equiv=Content-Type content=\"text/html; charset=utf-8\">
+				<base href=\""._URL."\">
+				<link href=\"templates/Default/css/template.css\" rel=\"stylesheet\" type=\"text/css\" />
+				<link href=\"styles.css\" rel=\"stylesheet\" type=\"text/css\" />
+			</head>
+			<body>".$text."\n</body>\n</html>";
+
+
 			mailq( $list , $subject , $text , $from, $html=true );
 			?>
 			<div class="convbox">ارسال ایمیل به <?=$i?> آدرس با موفقیت انجام شد</div>
