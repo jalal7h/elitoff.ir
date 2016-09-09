@@ -17,6 +17,14 @@
 #inDiv_nbmf_seller_name {
 	clear: both;
 }
+#nbmf_seller_cell,
+#nbmf_seller_telegram,
+#nbmf_seller_instagram,
+#nbmf_seller_website {
+	text-align: center;
+	width: 238px;
+	direction: ltr;
+}
 .nbmf textarea {
 	width: 100%;
 	height: 100px;

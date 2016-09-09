@@ -30,6 +30,12 @@ function nb_management_saveEdit(){
 		`google_maps`='".$_REQUEST['google_maps']."',
 		`seller_name`='".$_REQUEST['seller_name']."',
 		`seller_tell`='".$_REQUEST['seller_tell']."',
+
+		`seller_cell`='".$_REQUEST['seller_cell']."',
+		`seller_website`='".$_REQUEST['seller_website']."',
+		`seller_telegram`='".$_REQUEST['seller_telegram']."',
+		`seller_instagram`='".$_REQUEST['seller_instagram']."',
+
 		`thelastone`='".$_REQUEST['thelastone']."',
 		`seller_address`='".$_REQUEST['seller_address']."'
 		 WHERE `id`='$id' LIMIT 1 ")){

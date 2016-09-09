@@ -60,16 +60,17 @@
 	color: green;
 	font-weight: bold;
 	font-size: 15px;
-	padding: 0 0 8px 0;
+	padding: 0 0 12px 0;
 }
 .nb_display > .etc .forushande .seller_address {
 
 }
 .nb_display > .etc .forushande .seller_tell {
-	direction: ltr;
-	font: normal 15px BYekan; 
+/* 	direction: ltr;
+	font: normal 15px BYekan;  */
 
 }
+/* 
 .nb_display > .etc .forushande .seller_tell:before {
 	display: inline-block;
 	width: 26px;
@@ -79,7 +80,31 @@
     content: " ";
     position: relative;
     top: 9px;
+} */
+
+
+.nb_display > .etc .forushande .seller_info {
+	line-height: 28px !important;
+	height: 28px;
 }
+.nb_display > .etc .forushande .seller_info > span:first-child {
+	color: gray;
+	width: 100px;
+	display: inline-block;
+	padding-right: 10px;
+}
+.nb_display > .etc .forushande .seller_info > span:last-child {
+	width: 150px;
+	display: inline-block;
+	text-align: left;
+	direction: ltr;
+	font: normal 12px Arial,Tahoma;
+}
+
+.nb_display > .etc .forushande .seller_address {
+	margin-top: 20px;
+}
+
 .nb_display > .etc .forushande .google_maps {
 	margin-top: 20px;
 }

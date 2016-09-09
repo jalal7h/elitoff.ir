@@ -35,7 +35,7 @@ function nb_management_form(){
 
 	ff('اطلاعات فروشنده :‌').
 	ff(array('نام فروشنده','n:seller_name*'=>$tNetbarg,'inDiv')).
-	ff(array('شماره تماس','class'=>'numeric','n:seller_tell'=>$tNetbarg,'inDiv')).
+	ff(array('شماره ثابت','n:seller_tell'=>$tNetbarg,'inDiv')).
 	ff('clear').
 	ff(array('آدرس فروشگاه','n:seller_address*'=>$tNetbarg,'inDiv')).
 	"<div class='position_select'>".position_select($tNetbarg)."</div>".
@@ -45,7 +45,12 @@ function nb_management_form(){
 	'<div class="topbox">'.
 	google_maps(array('width'=>'470px', 'height'=>'373px', 'x,y'=>$tNetbarg['google_maps'])).
 	'</div>'.
-
+	
+	ff(array( lmtc('netbarg:seller_cell') ,'n:seller_cell'=>$tNetbarg,'inDiv')).
+	ff(array( lmtc('netbarg:seller_telegram') ,'n:seller_telegram'=>$tNetbarg,'inDiv')).
+	ff(array( lmtc('netbarg:seller_instagram') ,'n:seller_instagram'=>$tNetbarg,'inDiv')).
+	ff(array( lmtc('netbarg:seller_website') ,'n:seller_website'=>$tNetbarg,'inDiv')).
+	
 	ff('hr').
 	
 	'<div id="inDiv_nbmf_text_vijegi" ><span>ویژگی ها</span>'.
