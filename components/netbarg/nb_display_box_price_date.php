@@ -21,6 +21,5 @@ function nb_display_box_price_date( $date ){
 		 		<span>روز</span>
 		 	</div>
 	</div>';
-	
 }
 
