@@ -1,0 +1,95 @@
+
+.uploadr_management_form {
+	margin-top: 50px;
+	direction: rtl;
+}
+#inDiv_uploadr_management_form_uploadr ,
+#inDiv_uploadr_management_form_submit {
+	width: 160px;
+	text-align: right;
+}
+.uploadr_management_form .submit_button {
+	/*width: 90px !important;*/
+}
+.uploadr_management_save {
+	border-bottom: 1px dashed #ccc;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.uploadr_management_save > textarea {
+	width: 80%;
+	font: normal 18px monospace,'courier new',tahoma;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.uploadr_management_list .paging {
+	padding-left: 15px;
+}
+.uploadr_management_list .paging:hover {
+	background-color: transparent;
+}
+.uploadr_management_list .paging > * {
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	margin: 0 2px;
+	font: normal 18px monospace,'courier new',tahoma;
+	border-radius: 4px;
+}
+.uploadr_management_list .paging > a:hover {
+	opacity: 1;
+}
+.uploadr_management_list .paging > a {
+	background-color: #ddd;	
+	color: #777;
+	opacity: 0.7;
+}
+.uploadr_management_list .paging > b {
+	color: white; 
+	background-color: #bbb;
+	cursor: default;
+}
+
+
+.uploadr_management_list {
+	direction: ltr;
+	text-align: left;
+	width: 90%;
+	margin: 50px auto;
+}
+.uploadr_management_list > .r {
+    text-align: left;
+    display: inline-block;
+    width: 40%;
+    margin: 15px;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+.uploadr_management_list > .r > div ,
+.uploadr_management_list > .r > img {
+	display: inline-block;
+	width: 35px;
+	height: 30px;
+	vertical-align: top;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px !important;
+	background-color: #ccc;
+	cursor: default;
+}
+.uploadr_management_list > .r a {
+	height: 30px;
+	width: 35px;
+	font-size: 24px;
+	padding-left: 10px;
+}
+
+
+
+
+
+

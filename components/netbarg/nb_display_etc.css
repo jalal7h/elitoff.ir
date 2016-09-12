@@ -36,6 +36,9 @@
 	font-size: 13px;
 	line-height: 20px !important;
 }
+.nb_display > .etc .vijegi img {
+	max-width: 100%;
+}
 .nb_display > .etc .vijegi * {
 	line-height: 20px !important;
 }
