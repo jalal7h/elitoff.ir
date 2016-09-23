@@ -10,7 +10,7 @@ function nb_list_thelastone(){
 		e("err - nb_list_thelastone - ".__LINE__);
 		die();
 	} else if(!dbn($rs)){
-		e("err - nb_list_thelastone - ".__LINE__." - there is no record to show as the last one");
+		// e("err - nb_list_thelastone - ".__LINE__." - there is no record to show as the last one");
 	} else if(!$rw = dbf($rs)){
 		e("err - nb_list_thelastone - ".__LINE__);
 		die();
