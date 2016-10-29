@@ -31,7 +31,7 @@ function nb_management_copon_list(){
 
 	echo "
 		<div class='nb_management_copon_form_generate'>
-			<a target=_blank class='submit_button' href='./?do_action=nb_management_copon_list_print&netbarg_id=".$netbarg_id."'>چاپ همه کوپن های فعال این نت برگ</a>
+			<a target=_blank class='submit_button' href='./?do_action=nb_management_copon_list_print&netbarg_id=".$netbarg_id."'>چاپ همه کوپن های فعال این "._cocoro."</a>
 			<a class='submit_button' href='./?do_action=nb_management_copon_list_downloadExcel&netbarg_id=".$netbarg_id."'>دانلود فایل اکسل حاوی کوپن ها</a>
 		</div>";
 

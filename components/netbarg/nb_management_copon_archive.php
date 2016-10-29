@@ -31,7 +31,7 @@ function nb_management_copon_archive(){
 
 	echo "
 		<div class='nb_management_copon_form_generate'>
-			<a target=_blank class='submit_button' href='./?do_action=nb_management_copon_archive_print&netbarg_id=".$netbarg_id."'>چاپ همه کوپن های فروخته شده این نت برگ</a>
+			<a target=_blank class='submit_button' href='./?do_action=nb_management_copon_archive_print&netbarg_id=".$netbarg_id."'>چاپ همه کوپن های فروخته شده این "._cocoro."</a>
 		</div>";
 }
 
