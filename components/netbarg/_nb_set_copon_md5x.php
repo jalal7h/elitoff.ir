@@ -24,6 +24,7 @@ function _nb_set_copon_md5x(){
 			$code = $code_ID."-".$code_md5x;
 		
 			if( dbq(" UPDATE `netbarg_copon` SET `code`='$code' WHERE `id`='$id' LIMIT 1 ") ){
+				echo ". ";
 				break;
 			}
 		
