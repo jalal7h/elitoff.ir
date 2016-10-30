@@ -9,4 +9,5 @@ RewriteRule ^android$ ./?page=22 [L]
 RewriteRule ^online-payment$ ./?page=23 [L]
 RewriteRule ^terms$ ./?page=24 [L]
 RewriteRule ^privacy$ ./?page=25 [L]
+RewriteRule ^support$ ./?page=26 [L]
 

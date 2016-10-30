@@ -40,6 +40,7 @@ RewriteRule ^android$ ./?page=22 [L]
 RewriteRule ^online-payment$ ./?page=23 [L]
 RewriteRule ^terms$ ./?page=24 [L]
 RewriteRule ^privacy$ ./?page=25 [L]
+RewriteRule ^support$ ./?page=26 [L]
 RewriteRule ^rcpn([0-9]+)$ /?page=admin&cp=nb_management&func=nb_management_list&do=copon&id=$1&func2=nb_management_copon_form [R]
 
 #
