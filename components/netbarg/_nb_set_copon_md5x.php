@@ -18,11 +18,17 @@ function _nb_set_copon_md5x(){
 		if(! is_numeric($code_numb) ){
 			continue;
 		
-		} else {
+		} else while( 1 ){
+		
 			$code_md5x = md5x( $code_numb , 6 );
 			$code = $code_ID."-".$code_md5x;
-			dbs( 'netbarg_copon', [ 'code'=>$code ] , [ 'id'=>$id ] );
-			echo ". ";
+		
+			if( dbq(" UPDATE `netbarg_copon` SET `code`='$code' WHERE `id`='$id' LIMIT 1 ") ){
+				break;
+			}
+		
+			$code_numb = $code;
+			
 		}
 
 	}

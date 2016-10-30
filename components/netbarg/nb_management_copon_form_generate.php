@@ -30,15 +30,23 @@ function nb_management_copon_form_generate( $count , $netbarg_id=null ){
 
 function nb_management_copon_form_generate_this( $netbarg_id , $nbccc ){
 	
-	$code = nb_netbarg_id_encode($netbarg_id)."-".md5x( $nbccc+1000, 6 );
+	$code_ID = nb_netbarg_id_encode($netbarg_id);
+	$code_numb = $nbccc+1000;
 
-	if(! dbq(" INSERT INTO `netbarg_copon` (`netbarg_id`,`code`) VALUES ('$netbarg_id','$code') ") ){
-		echo("nb_management_copon_form_generate_this - ".__LINE__);
-		return false;
+	while( 1 ){
+	
+		$code_md5x = md5x( $code_numb , 6 );
+		$code = $code_ID."-".$code_md5x;
+			
+		if( dbq(" INSERT INTO `netbarg_copon` (`netbarg_id`,`code`) VALUES ('$netbarg_id','$code') ") ){
+			break;
+		}
 
-	} else {
-		return $code;
+		$code_numb = $code;
+
 	}
+
+	return $code;
 
 }
 
